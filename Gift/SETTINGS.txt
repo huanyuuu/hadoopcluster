@@ -1,0 +1,23 @@
+Step1 : ½Ä½Ä½Ä
+
+Step2 : 1. All zookeepers
+           hadoop-daemon.sh start journalnode
+        2. nn1
+           hdfs namenode -format
+	   hdfs namenode -initializeSharedEdits
+	   hadoop-daemon.sh start namenode
+        3.nn2
+           hdfs namenode -bootstrapStandby
+Step3 :¡@see scripts/zoo/zoo.cfg
+        
+        1.king 
+           echo "1" > /usr/local/zookeeper/zoodata/myid
+        2.prince
+           echo "2" > /usr/local/zookeeper/zoodata/myid
+        3.mistress
+           echo "3" > /usr/local/zookeeper/zoodata/myid
+
+Step4 : 1.All zookeepers
+	  zkServer.sh start
+        2.nn1
+          hdfs zkfc -formatZK

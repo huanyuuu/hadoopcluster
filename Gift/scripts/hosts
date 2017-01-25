@@ -1,0 +1,15 @@
+127.0.0.1 localhost
+192.168.33.141 king.example.org king
+192.168.33.61 queen.example.org queen
+192.168.33.41 prince.example.org prince
+192.168.33.51 mistress.example.org mistress
+192.168.33.62 secretary.example.org secretary
+192.168.33.142 knight1.example.org knight1
+192.168.33.143 knight2.example.org knight2
+192.168.33.63 knight3.example.org knight3
+192.168.33.42 knight4.example.org knight4
+192.168.33.43 knight5.example.org knight5
+192.168.33.52 knight6.example.org knight6
+192.168.33.53 knight7.example.org knight7
+
+

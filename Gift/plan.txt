@@ -1,0 +1,20 @@
+nn1,king,141
+nn2,prince,41
+rm1,queen,61
+rm2,mistress,51
+jbHis,secretary,62
+datanode&nodemanager,[knight1,142
+                      knight2,143
+                      knight3,63
+		      knight4,42
+                      knight5,43
+                      knight6,52
+		      knight7,53
+   		      prince
+   		      mistress               
+		      secretary
+                     ]
+zookeeper&jouralnode,[king
+		      prince
+		      mistress
+                     ] (zk-address)
