@@ -1,0 +1,2 @@
+# hadoopcluster
+hadoopcluster settings
